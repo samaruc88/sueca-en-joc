@@ -1,5 +1,6 @@
 import {reptes} from "./dades.js";
 import{resumir,validarItinerari} from "./regles.js";
+import { pintarCataleg } from "./vista.js";
 
 console.table(reptes);
 let minutsTotals = 0;
@@ -56,3 +57,6 @@ import { sumarPuntsTradicional } from "./regles.js";
 
 console.log("--- MICROPRÀCTICA: sumarPunts (tradicional) ---");
 console.log(sumarPuntsTradicional(100, 120, 90)); // Hauria de retornar 310
+
+
+pintarCataleg(reptes, document.querySelector("#cataleg"));

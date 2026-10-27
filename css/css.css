@@ -1,0 +1,26 @@
+#cataleg img {
+    width: 200px;       /* Amplada fixa de la imatge */
+    height: 150px;      /* Alçada fixa de la imatge */
+    object-fit: contain;  /* Evita que la imatge es deforme */
+    background-color: aqua;
+}
+/* Focus visible i controls llegibles */
+button:focus {
+    outline: 3px solid #b30030;
+    outline-offset: 2px;
+}
+article {
+    width: 500px;
+    height: auto;
+    background-color: #ffffff;
+    border-color: #b30000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+body{
+    background-color: rgb(202, 78, 81);
+}
+
